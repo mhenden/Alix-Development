@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+font-family: 'Myriad Pro Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Regular'), url(../webfonts/myriad-pro/MYRIADPRO-REGULAR.woff) format('woff');
+}
+
+#Form_EnquiryForm {
+	max-width: 600px;
+	margin: 0px;
+	margin-top: 30px;
+}
+#Form_EnquiryForm fieldset {
+	border-style: none;
+}
+#Form_EnquiryForm div.field {
+  padding: 0 0 10px;
+  overflow: hidden;
+}
+#Form_EnquiryForm label {
+	text-align: left;
+}
+#Form_EnquiryForm label.left {
+	/*font-size: 12px;*/
+	font-family: 'Myriad Pro Regular', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 17px;
+	color: #a3cc80;
+	font-weight: light;
+	margin-top: 5px;
+	display: block;
+	float: left;
+	width: 170px;
+	padding-right: 10px;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+#Form_EnquiryForm input[type="text"],
+#Form_EnquiryForm input[type="email"],
+#Form_EnquiryForm textarea,
+#Form_EnquiryForm select {
+	width: 300px;
+	border: solid #a3cc80 1px;
+  font-size: 14px;
+	font-family: 'Myriad Pro Regular', Helvetica, Arial, sans-serif;
+	/*-moz-border-radius: 4px;
+	border-radius: 4px;*/
+	float: left;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin-left: 0px;
+}
+#Form_EnquiryForm input[type="text"]:focus,
+#Form_EnquiryForm input[type="email"]:focus,
+#Form_EnquiryForm textarea:focus,
+#Form_EnquiryForm select:focus {
+  background: #e8d0eb;
+  /*border: 1px solid #900;*/
+  outline: none;
+}
+#Form_EnquiryForm div.field.checkboxset input {
+  vertical-align: bottom;
+}
+#Form_EnquiryForm ul.optionset {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+#Form_EnquiryForm ul.optionset li {
+  list-style: none;
+}
+#Form_EnquiryForm ul.optionset li label {
+  cursor: pointer;
+}
+#Form_EnquiryForm p.note {
+  text-align: center;
+}
+#Form_EnquiryForm div.middleColumn {
+  float: left;
+}
+#Form_EnquiryForm span.message.required {
+  clear: both;
+  display: block;
+  padding-left: 190px;
+  color: #c90000;
+  font-size: 12px;
+  font-weight: bold;
+}
+#Form_EnquiryForm div.required label.left {
+  /*font-weight: bold;*/
+}
+#Form_EnquiryForm div.required label.left:after {
+  content: "*";
+  color: #a3cc80;
+  padding-left: 3px;
+}
+#Form_EnquiryForm input.invalid,
+#Form_EnquiryForm textarea.invalid,
+#Form_EnquiryForm select.invalid {
+  background: #fcefef;
+  /*border: dashed #B63D3D 1px;*/
+}
+#Form_EnquiryForm div.EnquiryPageSuccess {
+  background: #00aebc;
+  padding: 20px;
+  font-size: 130%;
+}
+#Form_EnquiryForm div.EnquiryPageSuccess h1,
+#Form_EnquiryForm div.EnquiryPageSuccessh2,
+#Form_EnquiryForm div.EnquiryPageSuccessh3,
+#Form_EnquiryForm div.EnquiryPageSuccessh4 {
+  margin: 0;
+  padding: 5px 0;
+}
+#Form_EnquiryForm #CaptchaImage input[type="text"] {
+  width: 60px;
+}
+#Form_EnquiryForm #CaptchaImage img {
+  margin-right: 5px;
+  vertical-align: top;
+}
+#Form_EnquiryForm #CaptchaImage label.right {
+  clear: both;
+  float: none;
+}
+#Form_EnquiryForm #CaptchaImage label.right p {
+  clear: both;
+  font-weight: normal;
+  text-align: center;
+  font-size: 10px;
+  margin: 0;
+  padding: 5px 0;
+  color: #666;
+}
+#Form_EnquiryForm .Actions {
+  text-align: left;
+  /*margin-bottom: 20px;*/
+}
+
+.customcaptcha-image {
+	margin-left: 10px;
+	}
+	
+@media (max-width: 880px) {	
+
+#Form_EnquiryForm {
+	padding-left: 0px;
+}
+
+/*#Form_EnquiryForm input[type="text"],
+#Form_EnquiryForm input[type="email"],
+#Form_EnquiryForm textarea,
+#Form_EnquiryForm select {
+	width: 160px;
+}*/
+}
+	
+@media (max-width: 600px) {
+ #Form_EnquiryForm {
+	padding-left: 0px;
+}
+  #Form_EnquiryForm label.left {
+    display: block;
+    float: none;
+    clear: both;
+    width: 100%;
+    padding: 2px 10px 2px 0;
+    text-align: left;
+  }
+  #Form_EnquiryForm div.middleColumn {
+    float: none;
+    width: 100%;
+  }
+  #Form_EnquiryForm input[type="text"],
+#Form_EnquiryForm input[type="email"],
+#Form_EnquiryForm textarea,
+#Form_EnquiryForm select {
+	width: 260px;
+}
+}

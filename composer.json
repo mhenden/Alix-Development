@@ -1,0 +1,18 @@
+{
+    "name": "mhenden/alix",
+    "description": "Alix website",
+    "require": {
+        "silverstripe/framework": "3.1.x@stable",
+        "silverstripe/cms": "3.1.x@stable",
+        "burnbright/silverstripe-shop": "*",
+        "axllent/silverstripe-enquiry-page": "dev-master"
+    },
+    "license": "proprieatery",
+    "authors": [
+        {
+            "name": "Mike Henden",
+            "email": "mike@mhdesign.co.nz"
+        }
+    ],
+    "minimum-stability": "dev"
+}
