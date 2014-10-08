@@ -13,3 +13,10 @@ SSViewer:
 Product:
   extensions:
     - ProductExtension
+
+Page:
+  extensions:
+    - FlexSliderExtension
+
+ShoppingCart_Controller:
+  direct_to_cart_page: true
