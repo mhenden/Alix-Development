@@ -31,6 +31,5 @@ themes/kapitichamber/node_modules/
 /pattern-lab/
 blog
 *.css.map
-flexslider
-listsorter
-versioned-gridfield
+/listsorter/
+/versioned-gridfield/
