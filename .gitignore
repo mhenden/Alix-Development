@@ -20,16 +20,12 @@ Capfile
 /eventmanagement/
 /gridfieldextensions/
 /multiform/
-/mysite/_config.php
 /omnipay/
 /shop/
 /sqlquerylist/
 /sqlite3/
 /zen-googleanalytics/
-npm-debug.log
-themes/kapitichamber/node_modules/
 /pattern-lab/
 blog
-*.css.map
 /listsorter/
 /versioned-gridfield/
